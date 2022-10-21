@@ -35,6 +35,12 @@
     justify-content: space-between;
 }
 
+.descricao__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+}
+
 .card__botoes {
     display: flex;
     justify-content: space-between;
