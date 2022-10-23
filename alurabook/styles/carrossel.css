@@ -33,12 +33,23 @@
 .card__descricao {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
-    font-size: 16px;
+}
+
+.descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    font-size: 14px;
 }
 
 .card__botoes {
@@ -48,4 +59,16 @@
 
 .botoes {
     display: flex;
+}
+
+.botoes__item {
+    margin: 0 0.5em;
+}
+
+.botoes__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
 }
