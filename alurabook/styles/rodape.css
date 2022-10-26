@@ -42,4 +42,27 @@ hr {
         text-decoration: none;
         margin-left: 0.6em;
     }
+
+    .lista-rodape__link:hover {
+        color: var(--laranja);
+        }
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+
+    .rodape {
+        padding: 3em 5em;
+    }
+
+    .rodape__titulo {
+        font-size: 36px;
+    }
+
+    .lista-rodape__titulo {
+        margin-bottom: 2em;
+    }
 }
